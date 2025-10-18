@@ -56,7 +56,7 @@ Make a small flask API for users to access directly. Then connect a simple front
 - Retrieve current balances and transaction history
 - RESTful API with 11 endpoints
 - Interactive web testing interface
-- Configurable transaction storage limits
+- Configurable transaction storage limits (TXNS_TO_STORE in .env)
 
 # API Endpoints
 ## User Management
