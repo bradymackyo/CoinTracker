@@ -337,17 +337,17 @@ None
 
 # Project Structure
 
-templates/test.html (html/js for the api tester)
+- templates/test.html (html/js for the api tester)
 .env (environment file to change the amount of transactions saved (blockchain api maxes at 100))
-blockchain.py (handles all the interaction with the blockchain api)
-db_functions.py (functions called to setup the database)
-db.py (wrapper to interact with the database and make queries)
-main.py (driver of the app includes the api and all of the endpoints)
-README.md (this file)
-requirements.txt (required libraries for the project to run)
-response_example.json (sample response from the blockchain api)
-test_endpoints.py (simple testing file)
-test.db (a sample db)
+- blockchain.py (handles all the interaction with the blockchain api)
+- db_functions.py (functions called to setup the database)
+- db.py (wrapper to interact with the database and make queries)
+- main.py (driver of the app includes the api and all of the endpoints)
+- README.md (this file)
+- requirements.txt (required libraries for the project to run)
+- response_example.json (sample response from the blockchain api)
+- test_endpoints.py (simple testing file)
+- test.db (a sample db)
 
 # Architecture
 The project consists of a web api using python and flask, a sqlite3 db and a lightweight frontend to interact with the api. Also for our data we are using the blockchain.com api.
